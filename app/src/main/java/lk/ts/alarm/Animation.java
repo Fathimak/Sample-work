@@ -134,7 +134,7 @@ imageSliderView(100,0,800,580);
             sliderLayout.addSlider(textSliderView);
         }
         sliderLayout.setPresetTransformer(SliderLayout.Transformer.Accordion);
-        sliderLayout.setPresetIndicator(SliderLayout.PresetIndicators.Center_Bottom);
+        sliderLayout.setPresetIndicator(SliderLayout.PresetIndicators.Center_Top);
         sliderLayout.setCustomAnimation(new DescriptionAnimation());
         sliderLayout.setDuration(10000);
     }
